@@ -20,7 +20,6 @@ public class Motorcycle extends Vehicle {
 
     @Override
     public double calculateRentalCost(int days) {
-        // Additional charge for motorcycles with a top speed of at least 300
         if (calculateTopSpeed() >= 300) {
             return super.calculateRentalCost(days) + 150;
         }

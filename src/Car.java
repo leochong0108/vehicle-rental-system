@@ -16,7 +16,6 @@ public class Car extends Vehicle {
 
     @Override
     public double calculateRentalCost(int days) {
-        // Additional charge for cars with more than two doors
         if (numberOfDoors > 2) {
             return super.calculateRentalCost(days) + (35 * days);
         }

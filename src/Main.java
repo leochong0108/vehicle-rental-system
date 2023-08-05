@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         Vehicle[] vehicles = new Vehicle[4];
-        vehicles[0] = new Car("V001", "Toyota", "Corolla", 100, 4);
-        vehicles[1] = new Car("V002", "Honda", "Civic", 120, 2);
-        vehicles[2] = new Motorcycle("M001", "Yamaha", "YZF-R6", 80, 600);
-        vehicles[3] = new Motorcycle("M002", "Kawasaki", "Ninja 650", 90, 650);
+        vehicles[0] = new Car("JWA4207", "Toyota", "Corolla", 100, 4);
+        vehicles[1] = new Car("JWA4206", "Honda", "Civic Type-R", 120, 2);
+        vehicles[2] = new Motorcycle("JWA4208", "Yamaha", "YZF-R6", 80, 600);
+        vehicles[3] = new Motorcycle("JWA4205", "Kawasaki", "Ninja 650", 90, 650);
 
         int rentalDays = 5;
 
